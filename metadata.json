@@ -1,0 +1,7 @@
+{
+  "name": "Lumina Studio",
+  "description": "Professional all-in-one mobile video editing suite, multi-track timeline, AI creation, motion graphics & audio production.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

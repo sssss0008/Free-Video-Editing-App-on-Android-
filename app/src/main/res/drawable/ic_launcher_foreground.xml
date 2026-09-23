@@ -1,0 +1,103 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Aperture & Prism Polygon -->
+    <!-- Top Left Wing / Film Shutter -->
+    <path
+        android:pathData="M32,34 L52,24 L48,46 L30,44 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="24"
+                android:endX="52"
+                android:endY="46"
+                android:type="linear">
+                <item android:offset="0" android:color="#00F2FE" />
+                <item android:offset="1" android:color="#4FACFE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Top Right Wing -->
+    <path
+        android:pathData="M56,24 L76,34 L60,48 L52,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="52"
+                android:startY="24"
+                android:endX="76"
+                android:endY="48"
+                android:type="linear">
+                <item android:offset="0" android:color="#6366F1" />
+                <item android:offset="1" android:color="#8B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Right Wing / Timeline Flare -->
+    <path
+        android:pathData="M78,38 L84,58 L62,56 L64,44 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="62"
+                android:startY="38"
+                android:endX="84"
+                android:endY="58"
+                android:type="linear">
+                <item android:offset="0" android:color="#EC4899" />
+                <item android:offset="1" android:color="#F43F5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Bottom Right Wing -->
+    <path
+        android:pathData="M76,74 L56,84 L56,62 L74,60 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="56"
+                android:startY="60"
+                android:endX="76"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0" android:color="#F59E0B" />
+                <item android:offset="1" android:color="#EF4444" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Bottom Left Wing -->
+    <path
+        android:pathData="M52,84 L32,74 L44,60 L56,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="60"
+                android:endX="56"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0" android:color="#10B981" />
+                <item android:offset="1" android:color="#06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Left Wing -->
+    <path
+        android:pathData="M30,70 L24,50 L46,52 L44,64 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="50"
+                android:endX="46"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0" android:color="#06B6D4" />
+                <item android:offset="1" android:color="#3B82F6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Center Radiant Play Prism Icon -->
+    <path
+        android:pathData="M48,44 L66,54 L48,64 Z"
+        android:fillColor="#FFFFFF" />
+</vector>
+
